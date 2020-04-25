@@ -7,6 +7,7 @@ module.exports = {
   resolve: {
     extensions: ['*', '.js', '.vue']
   },
+  devtool: 'source-map',
   output: {
     path: path.resolve(__dirname, '../dist'),
     filename: 'v-distpicker-stzhang.js',
