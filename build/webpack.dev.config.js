@@ -14,7 +14,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, '../dist/dev'),
     publicPath: '/',
-    filename: 'v-distpicker.js'
+    filename: 'v-distpicker-stzhang.js'
   },
   devServer: {
     contentBase: path.resolve(__dirname, '../dist/dev'),

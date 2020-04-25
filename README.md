@@ -11,13 +11,13 @@ Here is [documents](http://distpicker.pigjian.com/)
 ## Installation
 
 ```javascript
-npm install v-distpicker --save
+npm install v-distpicker-stzhang --save
 ```
 
 Or
 
 ```javascript
-yarn add v-distpicker --save
+yarn add v-distpicker-stzhang --save
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ yarn add v-distpicker --save
 Registe global component:
 
 ```javascript
-import Distpicker from 'v-distpicker'
+import Distpicker from 'v-distpicker-stzhang'
 
 Vue.component('v-distpicker', Distpicker)
 ```
@@ -35,7 +35,7 @@ Vue.component('v-distpicker', Distpicker)
 Registe component:
 
 ```javascript
-import VDistpicker from 'v-distpicker'
+import VDistpicker from 'v-distpicker-stzhang'
 
 export default {
   components: { VDistpicker }
@@ -47,19 +47,19 @@ export default {
 Basic:
 
 ```javascript
-<v-distpicker></v-distpicker>
+<v-distpicker />
 ```
 
 Default Value:
 
 ```javascript
-<v-distpicker province="广东省" city="广州市" area="海珠区"></v-distpicker>
+<v-distpicker province="广东省" city="广州市" area="海珠区" />
 ```
 
 Mobile:
 
 ```javascript
-<v-distpicker type="mobile"></v-distpicker>
+<v-distpicker type="mobile" />
 ```
 
 ## Contributors

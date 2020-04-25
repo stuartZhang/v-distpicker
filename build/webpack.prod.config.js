@@ -9,7 +9,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, '../dist'),
-    filename: 'v-distpicker.js',
+    filename: 'v-distpicker-stzhang.js',
     library: 'VDistpicker',
     libraryTarget: 'umd',
     libraryExport: 'default'
