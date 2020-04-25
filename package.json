@@ -29,6 +29,7 @@
     "component"
   ],
   "scripts": {
+    "prepublishOnly": "npm run build",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --config=./build/webpack.dev.config.js",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules --config=./build/webpack.prod.config.js"
   },
